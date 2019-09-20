@@ -82,6 +82,8 @@ Soft skills
 - Share knowledge
 - Work in team
 - Time management
+- Discipline
+- Responsibility
 
 About Me
 =
