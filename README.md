@@ -21,7 +21,7 @@ Table of Contents
     4) [Hobbies](https://github.com/Cyberglamdring/4employers/blob/master/README.md#hHobbies)
     
 Education:
--
+=
 - Collage of Business and Law as **Software Engineer**
 - Belarusian State University of Informatics and Radioelectronics as **Software Engineer** (Bachelor) 
 
