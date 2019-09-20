@@ -7,8 +7,18 @@ Social links:
 - [Facebook](https://facebook.com/HlebKanonik)
 - Personal e-mail: [Google Mail](mailto:esscyh@gmail.com) / Work e-mail: [Outlook](mailto:hleb_kanonik@epam.com)
 
-
-
+Contents
+=
+1. [Education](https://github.com/Cyberglamdring/4employers/blob/master/README.md#education)
+2. [Training courses](https://github.com/Cyberglamdring/4employers/blob/master/README.md#training-courses)
+3. [English level](https://github.com/Cyberglamdring/4employers/blob/master/README.md#english-level)
+4. [Major skills](https://github.com/Cyberglamdring/4employers/blob/master/README.md#major-skills)
+5. [About Me](https://github.com/Cyberglamdring/4employers/blob/master/README.md#about-me)
+    1) [Experience](https://github.com/Cyberglamdring/4employers/blob/master/README.md#experience)
+    2) [Achievements](https://github.com/Cyberglamdring/4employers/blob/master/README.md#achievements)
+    3) [Goals](https://github.com/Cyberglamdring/4employers/blob/master/README.md#goals)
+    4) [Hobbies](https://github.com/Cyberglamdring/4employers/blob/master/README.md#hHobbies)
+    
 Education:
 -
 - Collage of Business and Law as **Software Engineer**
@@ -16,7 +26,7 @@ Education:
 
 
 Training courses:
--
+=
 - DevOps RD Graduate from [EPAM](epam.com).
 - [AWS Cloud Practitioner Essentials (Second Edition)](https://www.dropbox.com/s/dkbhwx9ervuqdbt/AWS%20Cloud%20Practitioner%20Essentials%20%28Second%20Edition%29.pdf?dl=0)
 - [AWS Security Fundamentals](https://www.dropbox.com/s/rou6kylw3k8iu14/AWS%20Security%20Fundamentals.pdf?dl=0)
@@ -24,12 +34,12 @@ Training courses:
 - [English of RD course](https://www.dropbox.com/s/olytr0mkzqsrlen/English%20of%20RD.pdf?dl=0)
 
 English level:
--
+=
 - Written B1
 - Speaking A2+
 
 Major skills:
--
+=
 - **Cloud**
     - Amazon Web Services (AWS): EC2, ECS, S3, VPC. AWS Cloudformation. AWS Lambda, AWS Autoscaling group, Rules, Elastic Load Balancer
 - **CI/CD Tools**:
@@ -63,3 +73,24 @@ Major skills:
 - **Software development methodologies**:
     - Scrum framework: Roles, Events 
     - Kaban
+
+About Me
+=
+Experience
+-
+In my first serious IT job I worked as a system administrator for three years. When I learned a lot in this area, I decided that I want to improve my skills. Three months ago, I'm passed interview on DevOps lab. As result, I improved my skills and interest in DevOps area.
+
+Achievements
+-
+In my opinion, now is my best achievement: At first, I created Kubernetes cluster with master and workers pods. Secondly, provision Jenkins artifacts on kube cluster and stored artifacts on Nexus local repository (which was created on another VM). Also, I created container on worked pod with SonarQube for continuous inspection of code quality. Perhaps, do not forget about performance analyzing. I used for this needs Zabbix or Prometeus. To sum up, I think, I can create Ansible playbook for this provision.
+
+Goals
+-
+My first goal is to gain professional skills in DevOps and improve them. Also I want to improve my English. Secondly I want to get a senior position. Finally I want to make career in DevOps area as a useful specialist.
+
+Hobbies
+-
+Let me tell about my hobbies:
+1.	Reading. I like historical, fantasy and fantastic novels. I'm crazy about Tolkien and Strugatsky brothers. The last book what I read is Richard Morgan's "Altered Carbon" about Takeshi Kovacs. This book is a cyberpunk-detective novel. Set in a future in which interstellar travel is facilitated by transferring mind between bodies.
+2.	Historical reconstruction. I'm in love with Middle Ages weapons, castles and whatever
+3.	Game development. Design of levels and develop role-play content. It means I write text quests and create characters. It my small project, maybe it will grow someday
