@@ -7,7 +7,7 @@ Social links:
 - [Facebook](https://facebook.com/HlebKanonik)
 - Personal e-mail: [Google Mail](mailto:esscyh@gmail.com) / Work e-mail: [Outlook](mailto:hleb_kanonik@epam.com)
 
-Contents
+Table of Contents
 =
 1. [Education](https://github.com/Cyberglamdring/4employers/blob/master/README.md#education)
 2. [Training courses](https://github.com/Cyberglamdring/4employers/blob/master/README.md#training-courses)
