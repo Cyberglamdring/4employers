@@ -13,7 +13,8 @@ Table of Contents
 2. [Training courses](https://github.com/Cyberglamdring/4employers/blob/master/README.md#training-courses)
 3. [English level](https://github.com/Cyberglamdring/4employers/blob/master/README.md#english-level)
 4. [Major skills](https://github.com/Cyberglamdring/4employers/blob/master/README.md#major-skills)
-5. [About Me](https://github.com/Cyberglamdring/4employers/blob/master/README.md#about-me)
+5. [Soft skills](https://github.com/Cyberglamdring/4employers/blob/master/README.md#soft-skills)
+6. [About Me](https://github.com/Cyberglamdring/4employers/blob/master/README.md#about-me)
     1) [Experience](https://github.com/Cyberglamdring/4employers/blob/master/README.md#experience)
     2) [Achievements](https://github.com/Cyberglamdring/4employers/blob/master/README.md#achievements)
     3) [Goals](https://github.com/Cyberglamdring/4employers/blob/master/README.md#goals)
@@ -73,6 +74,14 @@ Major skills:
 - **Software development methodologies**:
     - Scrum framework: Roles, Events 
     - Kaban
+
+Soft skills
+=
+- Ability to express ideas
+- Analyze and solve problems
+- Share knowledge
+- Work in team
+- Time management
 
 About Me
 =
