@@ -80,7 +80,7 @@ Soft skills
 - Ability to express ideas
 - Analyze and solve problems
 - Share knowledge
-- Work in team
+- Team player
 - Time management
 - Discipline
 - Responsibility
