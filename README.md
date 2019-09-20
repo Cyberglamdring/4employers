@@ -9,16 +9,16 @@ Social links:
 
 Table of Contents
 =
-1. [Education](https://github.com/Cyberglamdring/4employers/blob/master/README.md#education)
-2. [Training courses](https://github.com/Cyberglamdring/4employers/blob/master/README.md#training-courses)
-3. [English level](https://github.com/Cyberglamdring/4employers/blob/master/README.md#english-level)
-4. [Major skills](https://github.com/Cyberglamdring/4employers/blob/master/README.md#major-skills)
-5. [Soft skills](https://github.com/Cyberglamdring/4employers/blob/master/README.md#soft-skills)
-6. [About Me](https://github.com/Cyberglamdring/4employers/blob/master/README.md#about-me)
-    1) [Experience](https://github.com/Cyberglamdring/4employers/blob/master/README.md#experience)
-    2) [Achievements](https://github.com/Cyberglamdring/4employers/blob/master/README.md#achievements)
-    3) [Goals](https://github.com/Cyberglamdring/4employers/blob/master/README.md#goals)
-    4) [Hobbies](https://github.com/Cyberglamdring/4employers/blob/master/README.md#hHobbies)
+1. [Education](https://github.com/Cyberglamdring/4employers#education)
+2. [Training courses](https://github.com/Cyberglamdring/4employers#training-courses)
+3. [English level](https://github.com/Cyberglamdring/4employers#english-level)
+4. [Major skills](https://github.com/Cyberglamdring/4employers#major-skills)
+5. [Soft skills](https://github.com/Cyberglamdring/4employers#soft-skills)
+6. [About Me](https://github.com/Cyberglamdring/4employers#about-me)
+    1) [Experience](https://github.com/Cyberglamdring/4employers#experience)
+    2) [Achievements](https://github.com/Cyberglamdring/4employers#achievements)
+    3) [Goals](https://github.com/Cyberglamdring/4employers#goals)
+    4) [Hobbies](https://github.com/Cyberglamdring/4employers#hobbies)
     
 Education:
 =
