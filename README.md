@@ -2,9 +2,11 @@ Hleb Kanonik
 =
 Junior Systems Engineer
 
-Skype: esscyh
+Social links:
+- [Facebook](https://facebook.com/HlebKanonik)
+- Personal mail: [Google Mail](mailto:esscyh@gmail.com)
+- Skype: esscyh
 
-[Facebook](https://facebook.com/HlebKanonik)
 
 Education:
 -
