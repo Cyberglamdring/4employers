@@ -27,7 +27,7 @@ Education:
 
 Training courses:
 =
-- DevOps RD Graduate from [EPAM](epam.com).
+- DevOps RD Graduate from [EPAM](https://epam.com).
 - [AWS Cloud Practitioner Essentials (Second Edition)](https://www.dropbox.com/s/dkbhwx9ervuqdbt/AWS%20Cloud%20Practitioner%20Essentials%20%28Second%20Edition%29.pdf?dl=0)
 - [AWS Security Fundamentals](https://www.dropbox.com/s/rou6kylw3k8iu14/AWS%20Security%20Fundamentals.pdf?dl=0)
 - [AWS Technical Professional](https://www.dropbox.com/s/svqplanotakymrd/AWS%20Training%20%26%20Certification%20-%20Certicate%20of%20Completion-assessment.pdf?dl=0)
