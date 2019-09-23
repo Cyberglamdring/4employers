@@ -69,6 +69,7 @@ Major skills:
     - Java
     - Python
     - Ruby
+    - Groovy
 - **Build tools**:
     - Maven
 - **Software development methodologies**:
