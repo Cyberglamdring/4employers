@@ -55,7 +55,7 @@ Major skills:
     - Vagrant: Write [Vagranfiles](https://github.com/Cyberglamdring/zabbix/blob/master/day02/Vagrantfile)
     - Ansible: Write [playbooks](https://github.com/Cyberglamdring/ansible/tree/master/Day04) with Roles, Libraries and using variables (defaults, vars)
     - Packer
-    - (Terraform)[https://github.com/Cyberglamdring/4employers/tree/master/Configuration%20management%20tools/Terraform]
+    - [Terraform](https://github.com/Cyberglamdring/4employers/tree/master/Configuration%20management%20tools/Terraform)
 - **Virtualization**:
     - Oracle VM Virtualbox
     - Microsoft Hyepr-V
