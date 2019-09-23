@@ -1,4 +1,4 @@
-K8s **PHP Guestbook** diagram
+K8s PHP Guestbook diagram
 =
 by Hleb Kanonik
 
