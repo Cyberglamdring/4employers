@@ -97,7 +97,7 @@ In my opinion, now is my best achievement: At first, I created Kubernetes cluste
 
 Goals
 -
-My first goal is to gain professional skills in DevOps and improve them. Also I want to improve my English. Secondly I want to get a senior position. Finally I want to make career in DevOps area as a useful specialist.
+My first goal is to gain professional skills in DevOps and improve them. Also, I want to improve my English. Secondly, I want to get a senior position. Finally, I want to make career in DevOps area as a useful specialist.
 
 Hobbies
 -
