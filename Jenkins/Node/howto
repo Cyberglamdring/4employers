@@ -1,0 +1,41 @@
+#!/bin/bash
+# ---
+# SSH
+# vagrant up
+# vagrant ssh
+su
+# enter password:
+# vagrant
+adduser jenkins --shell /bin/bash
+passwd jenkins
+# enter:
+# jenkins
+mkdir /home/jenkins/jenkins_slave
+chmod -R 777 /home/jenkins/jenkins_slave
+vi /etc/sudoers.d/jenkins
+# enter:
+# jenkins ALL = (ALL) NOPASSWD: ALL
+su jenkins
+# enter password:
+# jenkins
+mkdir ~/.ssh
+ssh-keygen -t rsa -C "The access key for Jenkins slaves"
+cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys
+cat id_rsa
+# install jenkins
+
+
+
+
+# join to pod jenkins master
+# kubectl exec -it jenkins-5b98df654b-xjn24 -n jenkins bash
+ssh-copy-id jenkins@172.64.16.35
+# enter:
+# yes
+# setting on screenshot
+
+# install jenkins
+sudo yum install java -y
+sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+sudo yum install jenkins -y

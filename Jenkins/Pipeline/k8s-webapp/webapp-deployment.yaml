@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: HKwebapp-dep
+  namespace: hkanonik
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: webapp
+    spec:
+      containers:
+      - name: hk-webapp
+        image: localhost:6566/helloworld-hkanonik:22
+        ports:
+        - name: http-webapp
+          containerPort: 8080
