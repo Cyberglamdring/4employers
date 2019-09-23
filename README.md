@@ -95,7 +95,7 @@ In my first serious IT job I worked as a system administrator for three years. W
 
 Achievements
 -
-In my opinion, now is my best achievement: At first, I created Kubernetes cluster with master and workers pods. Secondly, provision Jenkins artifacts on kube cluster and stored artifacts (which build using Maven tool) on Nexus local repository (which was created on another VM). Also, I created container on worked pod with SonarQube for continuous inspection of code quality. Perhaps, do not forget about performance analyzing. I used for this needs Zabbix or Prometeus. To sum up, I think, I can create Ansible playbook for this provision.
+In my opinion, now is my best achievement: At first, I created Kubernetes cluster with master and workers pods. Secondly, provision Jenkins artifacts on kube cluster and stored artifacts (which build using Maven tool) on Nexus local repository (which I was created on another VM). Also, I created container on Worker POD with SonarQube for continuous inspection of code quality. Perhaps, do not forget about performance analyzing. I used for this needs Zabbix or Prometeus. To sum up, I think, I can create Ansible playbook for this provision.
 
 Goals
 -
