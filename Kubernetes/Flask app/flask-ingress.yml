@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: flask-ingress
+  namespace: my-microservice-app
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: my-application.k8s.local
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: flask-svc
+          servicePort: flask-svc-port
+      - path: /author
+        backend:
+          serviceName: name-app-svc
+          servicePort: napp-svc-port
+
+
+# kubectl describe ing

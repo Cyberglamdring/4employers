@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: flask
+  namespace: my-microservice-app
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: flask
+    spec:
+      containers:
+      - name: flask
+        image: cyberglamdring/python2.7-flask:flask-app-p2.7
+        ports:
+        - name: http-flask
+          containerPort: 8080 # because falsk app on 8080 port
+
+# curl -H "host:app1.k8s.local" 192.168.56.240

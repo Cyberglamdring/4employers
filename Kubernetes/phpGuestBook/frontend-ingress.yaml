@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: frontend-ingress
+  namespace: guestbook-app
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: guestbook.k8s.local
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: frontend
+          servicePort: gb-svc-port

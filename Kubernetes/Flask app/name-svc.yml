@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: name-app-svc
+  namespace: my-microservice-app
+  labels:
+    app: name-app
+spec:
+  selector:
+    app: name-app
+  ports:
+  - name: napp-svc-port
+    port: 80
+    targetPort: http-name-app
