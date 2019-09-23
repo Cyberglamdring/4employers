@@ -45,8 +45,8 @@ Major skills:
     - Amazon Web Services (AWS): EC2, ECS, S3, VPC. AWS Cloudformation. AWS Lambda, AWS Autoscaling group, Rules, Elastic Load Balancer
 - **CI/CD Tools**:
     - [Jenkins](https://github.com/Cyberglamdring/4employers/tree/master/Jenkins): [DSL](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/DSL/jobs.groovy), [Pipeline](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/Pipeline/Jenkinsfile) with custom [libs](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/Pipeline/var/pushStage.groovy)
-    - SonarQube: [Installation to k8s cluster](https://github.com/Cyberglamdring/helpRepo/tree/master/Jenkins/k8s_sonar) and configuration (Example in the pipeline link)
-    - Sonatype Nexus: [Installation to k8s cluster](https://github.com/Cyberglamdring/helpRepo/tree/master/Jenkins/k8s_nexus) and configuration (Example in the pipeline link)
+    - SonarQube: [Installation to k8s cluster](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/SonarQube) and configuration (Example in the pipeline link)
+    - Sonatype Nexus: [Installation to k8s cluster](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/Sonatype%20Nexus) and configuration (Example in the pipeline link)
 - **Git**: Merge conflicts, revert change, branched strategies
 - **Containerisation**
     - Docker, Podman, [Docker Compose](https://github.com/Cyberglamdring/docker/tree/master/Day3/docker-compose) and write [Dockerfile](https://github.com/Cyberglamdring/docker/tree/master/Day2/Dockerfiles) experience 
