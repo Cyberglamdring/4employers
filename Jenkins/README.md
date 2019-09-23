@@ -1,1 +1,1 @@
-![Jenkins Pipeline Diagram](https://previews.dropbox.com/p/thumb/AAjzzbKnAvCYmHYc3usA8hycbSjcHEu518vrqhG4UpIVDt56PmV2Iuz_6i7P3THhBwCNv7KTk_hP3mMV7K94GGp9XZ7bATeFuutG4vFpVvsxwT_xrYIyvbCFPEwF4lIB25dZNIZTwfgxZ59pjSdI1643iTnYATOkDBJ4x58PRkFlDbuvqBXekVf0b-nXpxGxsNAg6qm5I1d2VglyZjrZQAzL-JXelvRtE4N2Gy9wNEJB6DoiCr3tGB36vGUkJl-p8mKxw2h4Vgk43Pujzla9Ciq2y3mdYe_96BB70lOm5N-htyVIQPCNE33voZiKeXch7mKhpxc3_5NsJZUzVa9IHrVg/p.png?fv_content=true&size_mode=5)
+![Jenkins Pipeline Diagram](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/Pipeline/jenkins_pipeline_diagram.png)
