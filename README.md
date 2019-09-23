@@ -48,7 +48,7 @@ Major skills:
     - SonarQube: [Installation to k8s cluster](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/SonarQube) and configuration (Example in the pipeline link)
     - Sonatype Nexus: [Installation to k8s cluster](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/Sonatype%20Nexus) and configuration (Example in the pipeline link)
 - **Git**: Merge conflicts, revert change, branched strategies
-- **Containerisation**
+- **Containerization**
     - Docker, Podman, [Docker Compose](https://github.com/Cyberglamdring/docker/tree/master/Day3/docker-compose) and write [Dockerfile](https://github.com/Cyberglamdring/docker/tree/master/Day2/Dockerfiles) experience 
     - [Kubernetes](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes): [Creating infrastructure](https://github.com/Cyberglamdring/4employers/blob/master/Kubernetes/k8s-create-cluster.sh) (Initialization cluster, creating POD Network, deploying MetalLB and NGINX Ingress Controller), provision with [Volumes](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/Volumes), [Secrets](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/Secrets)
 - **Configuration management tools**: 
@@ -91,7 +91,13 @@ About Me
 =
 Experience
 -
-In my first serious IT job I worked as a system administrator for three years. When I learned a lot in this area, I decided that I want to improve my skills. Three months ago, I'm passed interview on DevOps lab. As result, I improved my skills and interest in DevOps area.
+I started on the system administrator side, then went over to Systems Engineer. Prior to EPAM I worked with virtualization tools, Windows/Linux servers, also supported people in the organization. 
+I created several Linux servers on VMware: Zabbix on Ubuntu, a simple XMPP organization chat server with Open Fire on Debian and a firewall/router/load balancer server with PfSense on FreeBSD.
+I helped peoples in the organization with technical problems. Also, I analyzed and solve problems with servers/networking/database and windows applications.
+As a result, I’m good at in virtualization tools, troubleshooting, logging and solving technical problems.
+
+
+When I first joined EPAM, I passed to the DevOps lab and graduated it of 3 months. I learn a lot of Cloud, CI/CD tools and concept, git, containerization, configuration management tools, virtualization, monitoring tools, programming languages, build tools and software development methodologies.
 
 Achievements
 -
