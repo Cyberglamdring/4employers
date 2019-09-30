@@ -107,7 +107,7 @@ Goals
 -
 My first goal is to gain professional skills in DevOps and improve them. Also, I want to improve my English. Secondly, I want to get a senior position. Finally, I want to make career in DevOps area as a useful specialist.
 
-Hobbies 1
+Hobbies 
 -
 Let me tell about my hobbies:
 1.	Reading. I like historical, fantasy and fantastic novels. I'm crazy about Tolkien and Strugatsky brothers. The last book what I read is Richard Morgan's "Altered Carbon" about Takeshi Kovacs. This book is a cyberpunk-detective novel. Set in a future in which interstellar travel is facilitated by transferring mind between bodies.
