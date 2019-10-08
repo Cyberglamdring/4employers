@@ -1,0 +1,34 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx
+    networks:
+      - mynetwork
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./conf:/etc/nginx/conf.d/
+    links:
+      - tomcat
+    deploy:
+      resources:
+        limits:
+          cpus: '0.35'
+          memory: 500M
+
+  tomcat:
+    image: tomcat
+    networks:
+      - mynetwork
+    environment:
+      - JVM_OPTS=-Xmx300m -Xms300m -XX:MaxPermSize=300m
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 300M
+
+networks:
+  mynetwork:
+    driver: bridge
