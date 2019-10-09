@@ -1,0 +1,39 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos/7"
+  config.vm.network :private_network, ip: "192.168.88.10"
+  config.vm.hostname = "docker-training"
+
+  config.ssh.insert_key = false
+  config.vm.provider "hyperv" do |hv|
+    hv.memory = "2048"
+  end
+
+=begin
+  # VirtualBox provision
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "docker-host"
+    vb.customize ["modifyvm", :id, "--cpuexecutioncap", "30"]
+    vb.memory = "2048"
+  end
+=end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    yum install -y yum-utils \
+    device-mapper-persistent-data \
+    lvm2
+
+    yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+
+    yum install docker-ce docker-ce-cli containerd.io -y
+
+    systemctl start docker
+    systemctl enable docker
+
+    usermod -aG docker vagrant
+  SHELL
+end
