@@ -9,7 +9,6 @@ yum install -y ncurses-devel libncurses-devel openssl-devel bc hmaccalc zlib0dev
 apt install -y build-essential libncurses-dev bison flex libssl-dev libelf-dev isolinux genisoimage
 ```
 
-Table 1 - Packeges
 | Command | Description |
 | --- | --- |
 |`Development Tools (CentOS)`, `build-essential (Ubuntu)`|библиотека включающая в себя утилиты для сборки|
@@ -32,7 +31,7 @@ make help
 <details>
     <summary>make help output</summary>
     
-    ```bash
+```bash
     Cleaning targets:
     clean           - Remove most generated files but keep the config and
                         enough build support to build external modules
@@ -172,6 +171,7 @@ make help
 
     Execute "make" or "make all" to build all targets marked with [*]
     For further info see the ./README file
+```
 </details> 
 
 Step 1 - menuconfig
