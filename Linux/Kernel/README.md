@@ -20,7 +20,7 @@ apt install -y build-essential libncurses-dev bison flex libssl-dev libelf-dev i
 
 ```bash
 mkdir /etc/kernal-build/ ; cd /etc/kernal-build/
-wget /https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.3.7.tar.xz
+wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.3.7.tar.xz
 tar -Jvxf linux-5.3.7.tar.xz ; cd linux-5.3.7
 ```
 
