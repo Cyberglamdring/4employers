@@ -58,7 +58,7 @@ Major skills:
     - [Terraform](https://github.com/Cyberglamdring/4employers/tree/master/Configuration%20management%20tools/Terraform)
 - **Virtualization**:
     - Oracle VM Virtualbox
-    - Microsoft Hyepr-V
+    - Microsoft Hyper-V
     - ESXI VMware Workstation
 - **Operation systems**
     - Linux (CentOS, Ubuntu, Arch Linux, FreeBSD): Bash-scripting ([example 1](https://github.com/Cyberglamdring/zabbix/tree/master/day02/scripts), [expamle 2](https://github.com/Cyberglamdring/helpRepo/blob/master/k8s/scripts/k8s-master-install.sh)), troubleshooting experience (networks/systems/applications)
