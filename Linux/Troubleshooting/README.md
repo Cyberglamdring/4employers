@@ -1,4 +1,6 @@
 Table 1 — Troublshooting script
+
+
 | Command | Description |
 | --- | --- |
 |`ip addr` |	проверка на совпадения ip адреса сервера и доступности интерфейса |
