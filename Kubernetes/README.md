@@ -10,7 +10,8 @@
 6. [ReplicaSet]()
 7. [Deployments]()
 8. [Garbage Collector]()
-9. [Список источников]()
+9. [Диаграмма]()
+10. [Список источников]()
 
 **Кубернетес** – открытое ПО для автоматизации развёртывания, масштабирования и управления контейнеризированными приложениями. Поддерживает до 5 000 nodes и 150 000 pod.
 | Info  | Description|
@@ -335,10 +336,10 @@ deployment "nginx-deployment" autoscaled
 $ kubectl delete replicaset my-repset --cascade=false
 ```
 
-#### K8s PHP Guestbook diagram
+## K8s PHP Guestbook diagram
 ![k8s diagramm](https://github.com/Cyberglamdring/4employers/blob/master/Kubernetes/etc/k8s_Guestbook_diagram.png?raw=true)
 
-СПИСОК ИСТОЧНИКОВ
+## Cписок источников
 
 - Официальный вебсайт kubernetes.io https://kubernetes.io/docs
 - Блог https://ealebed.github.io/tags/kubernetes/
