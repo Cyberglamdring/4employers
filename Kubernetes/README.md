@@ -61,6 +61,8 @@ kube-proxy-wwbpz                 1/1     Running   2          73m
 kube-scheduler-master            1/1     Running   2          72m
 ```
 
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+
 ### Терминология
 
 |Термин|Определение|
@@ -77,6 +79,8 @@ kube-scheduler-master            1/1     Running   2          72m
 |**Annotations**|Добавление произвольных неидентифицирующих метаданных к объектам|
 |**ConfigMaps**|Позволяет переопределить конфигурацию запускаемых под|
 |**Secrets**|Используются для хранения конфиденциальной информации (пароли, токены, ssh-ключи)|
+
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
 
 ## Pod
 
@@ -119,6 +123,8 @@ $ kubectl create -f jenkins-pod.yml
 jenkins-pod created.
 ```
 
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+
 ## Network
 
 Каждому Pod'у присваивается IP-адрес. Внутри Pod'а каждый контейнер использует общее пространство имен (namespace) сети, включая IP-адрес и сетевые порты. Между собой внутри Pod'а контейнеры взаимодействуют через localhost. При взаимодействии с объектами, находящимися за пределами Pod'а, контейнеры «договариваются» между собой и координируют использование общих сетевых ресурсов (таких как порты).
@@ -147,6 +153,7 @@ Containers:
     Host Ports:    0/TCP, 0/TCP
     <...>
 ```
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
 
 ## Volume
 
@@ -164,6 +171,7 @@ Volumes:
     Optional:    false     
 <...>                                       
 ```
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
 
 ## ReplicaSet
 
@@ -260,6 +268,8 @@ replicaset.apps "frontend" deleted
 - Job (для под, которые должны «завершаться» самостоятельно после выполнения определенной задачи);
 - DaemonSet (для запуска под на каждой ноде кластера).
 
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+
 ## Deployments
 
 Контроллер развертывания (Deployment controller) предоставляет возможность декларативного обновления для объектов типа поды (Pods) и наборы реплик (ReplicaSets).
@@ -316,6 +326,8 @@ $ kubectl autoscale deployment nginx-deployment --min=10 --max=15 --cpu-percent=
 deployment "nginx-deployment" autoscaled
 ```
 
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+
 ## Garbage Collector
 
 Сборщика мусора (**Garbage Collector**) удаляет объекты, которые больше не имеют владельца.
@@ -337,8 +349,12 @@ deployment "nginx-deployment" autoscaled
 $ kubectl delete replicaset my-repset --cascade=false
 ```
 
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+
 ## PHP Guestbook diagram
 ![k8s diagramm](https://github.com/Cyberglamdring/4employers/blob/master/Kubernetes/etc/k8s_Guestbook_diagram.png?raw=true)
+
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
 
 ## Cписок источников
 
