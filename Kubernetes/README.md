@@ -9,7 +9,7 @@
 4. [Volume](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#volume)
 5. [ReplicaSet](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#replicaset)
 6. [Deployments](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#deployments)
-7. [Garbage Collector](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#garbage-collecto)
+7. [Garbage Collector](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#garbage-collector)
 8. [PHP Guestbook diagram](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#php-guestbook-diagram)
 9. [Список источников](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#c%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2)
 
