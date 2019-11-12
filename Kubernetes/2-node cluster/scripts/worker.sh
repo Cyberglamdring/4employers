@@ -1,6 +1,5 @@
 USER=vagrant
-HOST_IP=177.122.51.1
-METALLB_IP=177.122.51.240/28
+HOST_IP=177.122.51.2
 
 # Add k8s repository
 cat <<EOF > /etc/yum.repos.d/kubernetes.repo
