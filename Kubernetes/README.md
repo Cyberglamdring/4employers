@@ -2,18 +2,19 @@
 
 ## Table of contents
 
-1. [Архитектура]()
-2. [Терминология]()
-3. [Pods]()
-4. [Network]()
-5. [Volume]()
-6. [ReplicaSet]()
-7. [Deployments]()
-8. [Garbage Collector]()
-9. [Диаграмма]()
-10. [Список источников]()
+1. [Архитектура](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
+2. [Терминология](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)
+3. [Pods](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#pod)
+4. [Network](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#network)
+5. [Volume](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#volume)
+6. [ReplicaSet](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#replicaset)
+7. [Deployments](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#deployments)
+8. [Garbage Collector](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#garbage-collecto)
+9. [PHP Guestbook diagram](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#php-guestbook-diagram)
+10. [Список источников](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#c%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2)
 
 **Кубернетес** – открытое ПО для автоматизации развёртывания, масштабирования и управления контейнеризированными приложениями. Поддерживает до 5 000 nodes и 150 000 pod.
+
 | Info  | Description|
 | --- | --- |
 | **Написано на** | Go |
@@ -336,7 +337,7 @@ deployment "nginx-deployment" autoscaled
 $ kubectl delete replicaset my-repset --cascade=false
 ```
 
-## K8s PHP Guestbook diagram
+## PHP Guestbook diagram
 ![k8s diagramm](https://github.com/Cyberglamdring/4employers/blob/master/Kubernetes/etc/k8s_Guestbook_diagram.png?raw=true)
 
 ## Cписок источников
