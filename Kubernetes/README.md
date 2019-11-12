@@ -61,7 +61,7 @@ kube-proxy-wwbpz                 1/1     Running   2          73m
 kube-scheduler-master            1/1     Running   2          72m
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ### Терминология
 
@@ -80,7 +80,7 @@ kube-scheduler-master            1/1     Running   2          72m
 |**ConfigMaps**|Позволяет переопределить конфигурацию запускаемых под|
 |**Secrets**|Используются для хранения конфиденциальной информации (пароли, токены, ssh-ключи)|
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## Pod
 
@@ -123,7 +123,7 @@ $ kubectl create -f jenkins-pod.yml
 jenkins-pod created.
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## Network
 
@@ -153,7 +153,7 @@ Containers:
     Host Ports:    0/TCP, 0/TCP
     <...>
 ```
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## Volume
 
@@ -171,7 +171,7 @@ Volumes:
     Optional:    false     
 <...>                                       
 ```
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## ReplicaSet
 
@@ -268,7 +268,7 @@ replicaset.apps "frontend" deleted
 - Job (для под, которые должны «завершаться» самостоятельно после выполнения определенной задачи);
 - DaemonSet (для запуска под на каждой ноде кластера).
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## Deployments
 
@@ -326,7 +326,7 @@ $ kubectl autoscale deployment nginx-deployment --min=10 --max=15 --cpu-percent=
 deployment "nginx-deployment" autoscaled
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## Garbage Collector
 
@@ -349,12 +349,12 @@ deployment "nginx-deployment" autoscaled
 $ kubectl delete replicaset my-repset --cascade=false
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## PHP Guestbook diagram
 ![k8s diagramm](https://github.com/Cyberglamdring/4employers/blob/master/Kubernetes/etc/k8s_Guestbook_diagram.png?raw=true)
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes0)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 
 ## Cписок источников
 
