@@ -1,6 +1,6 @@
 USER=vagrant
-HOST_IP=177.122.51.1
-METALLB_IP=177.122.51.240/28
+HOST_IP=192.168.100.51
+METALLB_IP=192.168.100.240/28
 
 # Add k8s repository
 cat <<EOF > /etc/yum.repos.d/kubernetes.repo
@@ -14,6 +14,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cl
 EOF
 
 # Set SELinux in permissive mode (effectively disabling it)
+# For access of containers to the host file system
 setenforce 0
 sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 
@@ -29,6 +30,7 @@ echo "SELINUX=disabled" > /etc/sysconfig/selinux
 sed -i '/swap/d' /etc/fstab
 swapoff --all
 
+# Use common driver
 touch /etc/docker/daemon.json
 cat <<EOF > /etc/docker/daemon.json
 {
@@ -61,18 +63,21 @@ kubeadm init \
 # kubeadm join 177.122.1.50:6443 --token w4q3mf.zu1yyhk5v73h4d7y \
 #     --discovery-token-ca-cert-hash sha256:a81970e3691b2b76b8f1f5c257352cd23420a534d8952fde9dda984e31f23e44
 
+# ROOT kubectl
 mkdir /root/.kube
 cp /etc/kubernetes/admin.conf /root/.kube/config
-
-# Vagrant kubectl
-mkdir /home/$USER/.kube
-cp /etc/kubernetes/admin.conf /home/$USER/.kube/config
-chown $USER:$USER /home/$USER/.kube/config
-
 # Kubectl autocomplete
 echo "source <(kubectl completion bash)" >> ~/.bashrc
 
+# USER kubectl
+mkdir /home/$USER/.kube
+cp /etc/kubernetes/admin.conf /home/$USER/.kube/config
+chown $USER:$USER /home/$USER/.kube/config
+# Kubectl autocomplete
+echo "source <(kubectl completion bash)" >> /home/$USER/.bashrc
+
 # Deploy POD's network
+# Flannel - Software Defined Network, SDN
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 kubectl patch daemonsets kube-flannel-ds-amd64 -n kube-system --patch='{
   "spec":{
@@ -123,3 +128,4 @@ kubectl patch -n ingress-nginx svc ingress-nginx --patch '{"spec": {"type": "Loa
 
 # disbled master node protection
 kubectl taint nodes --all node-role.kubernetes.io/master-
+
