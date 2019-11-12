@@ -65,4 +65,4 @@ echo "source <(kubectl completion bash)" >> ~/.bashrc
 # ----
 # 2) copy token
 # 3) on WORKER VM:
-# kubeadm join 177.122.50.1:6443 --token w4q3mf.zu1yyhk5v73h4d7y \
+# kubeadm join 177.122.50.1:6443 --token w4q3mf.zu1yyhk5v73h4d7y
