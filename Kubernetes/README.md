@@ -1,5 +1,5 @@
 
-## Table of contents
+# Table of contents
 
 1. [Kubernetes](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
 2. [Архитектура](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
@@ -63,7 +63,7 @@ kube-proxy-wwbpz                 1/1     Running   2          73m
 kube-scheduler-master            1/1     Running   2          72m
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ### Терминология
 
@@ -82,7 +82,7 @@ kube-scheduler-master            1/1     Running   2          72m
 |**ConfigMaps**|Позволяет переопределить конфигурацию запускаемых под|
 |**Secrets**|Используются для хранения конфиденциальной информации (пароли, токены, ssh-ключи)|
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## Pod
 
@@ -125,7 +125,7 @@ $ kubectl create -f jenkins-pod.yml
 jenkins-pod created.
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## Network
 
@@ -155,7 +155,7 @@ Containers:
     Host Ports:    0/TCP, 0/TCP
     <...>
 ```
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## Volume
 
@@ -173,7 +173,7 @@ Volumes:
     Optional:    false     
 <...>                                       
 ```
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## ReplicaSet
 
@@ -270,7 +270,7 @@ replicaset.apps "frontend" deleted
 - Job (для под, которые должны «завершаться» самостоятельно после выполнения определенной задачи);
 - DaemonSet (для запуска под на каждой ноде кластера).
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## Deployments
 
@@ -328,7 +328,7 @@ $ kubectl autoscale deployment nginx-deployment --min=10 --max=15 --cpu-percent=
 deployment "nginx-deployment" autoscaled
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## Garbage Collector
 
@@ -351,15 +351,17 @@ deployment "nginx-deployment" autoscaled
 $ kubectl delete replicaset my-repset --cascade=false
 ```
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## PHP Guestbook diagram
 ![k8s diagramm](https://github.com/Cyberglamdring/4employers/blob/master/Kubernetes/etc/k8s_Guestbook_diagram.png?raw=true)
 
-[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#kubernetes)
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
 
 ## Cписок источников
 
-- Официальный вебсайт kubernetes.io https://kubernetes.io/docs
-- Блог https://ealebed.github.io/tags/kubernetes/
-- Хабр – Основы Кубернетес https://habr.com/ru/post/258443/
+- [Официальный вебсайт kubernetes.io](https://kubernetes.io/docs)
+- [Блог Yevhen Lebid](https://ealebed.github.io/tags/kubernetes/)
+- [Хабр – Основы Кубернетес](https://habr.com/ru/post/258443/)
+
+[↑ Вернуться наверх ↑](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes#table-of-contents)
