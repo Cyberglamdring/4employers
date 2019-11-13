@@ -15,10 +15,10 @@ Table of Contents
 4. [Major skills](https://github.com/Cyberglamdring/4employers#major-skills)
 5. [Soft skills](https://github.com/Cyberglamdring/4employers#soft-skills)
 6. [About Me](https://github.com/Cyberglamdring/4employers#about-me)
-    1) [Experience](https://github.com/Cyberglamdring/4employers#experience)
-    2) [Achievements](https://github.com/Cyberglamdring/4employers#achievements)
-    3) [Goals](https://github.com/Cyberglamdring/4employers#goals)
-    4) [Hobbies](https://github.com/Cyberglamdring/4employers#hobbies)
+    6.1 [Experience](https://github.com/Cyberglamdring/4employers#experience)
+    6.2 [Achievements](https://github.com/Cyberglamdring/4employers#achievements)
+    6.3 [Goals](https://github.com/Cyberglamdring/4employers#goals)
+    6.4 [Hobbies](https://github.com/Cyberglamdring/4employers#hobbies)
     
 Education:
 =
