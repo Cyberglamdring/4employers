@@ -5,7 +5,7 @@ Junior Systems Engineer
 Social links:
 - Skype: esscyh
 - [Facebook](https://facebook.com/HlebKanonik)
-- Personal email: [Google Mail](mailto:esscyh@gmail.com) / Work email: [Outlook](mailto:hleb_kanonik@epam.com)
+- Personal email: [Google Mail](mailto:esscyh@gmail.com)
 
 Table of Contents
 =
