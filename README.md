@@ -52,7 +52,7 @@ Major skills:
     - Docker, Podman, [Docker Compose](https://github.com/Cyberglamdring/docker/tree/master/Day3/docker-compose) and write [Dockerfile](https://github.com/Cyberglamdring/4employers/tree/master/Docker/Dockerfiles) experience 
     - [Kubernetes](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes): Creating infrastructure: [1-node](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/1-node%20cluster) & [2-node cluster](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/2-node%20cluster) (Initialization cluster, creating POD Network, deploying MetalLB and NGINX Ingress Controller), provision with [Volumes, Secrets & etc](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/etc)
 - **Configuration management tools**: 
-    - Vagrant: Write [Vagrantfiles](https://github.com/Cyberglamdring/zabbix/blob/master/day02/Vagrantfile)
+    - Vagrant: Write [Vagrantfiles](https://github.com/Cyberglamdring/4employers/blob/master/Kubernetes/2-node%20cluster/Vagrantfile)
     - Ansible: Write [playbooks](https://github.com/Cyberglamdring/ansible/tree/master/Day04) with Roles, Libraries and using variables (defaults, vars)
     - Packer
     - [Terraform](https://github.com/Cyberglamdring/4employers/tree/master/Configuration%20management%20tools/Terraform)
