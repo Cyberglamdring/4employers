@@ -42,7 +42,7 @@ English level:
 Major skills:
 =
 - **Cloud**
-    - Google Cloud
+    - Amazon Web Service
 - **CI/CD Tools**:
     - [Jenkins](https://github.com/Cyberglamdring/4employers/tree/master/Jenkins): [DSL](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/DSL/jobs.groovy), [Pipeline](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/Pipeline/Jenkinsfile) with custom [libs](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/Pipeline/var/pushStage.groovy)
     - SonarQube: [Installation to k8s cluster](https://github.com/Cyberglamdring/4employers/tree/master/Kubernetes/SonarQube) and configuration (Example in the pipeline link)
