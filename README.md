@@ -42,7 +42,6 @@ English level:
 Major skills:
 =
 - **Cloud**
-    - Amazon Web Services
     - Google Cloud
 - **CI/CD Tools**:
     - [Jenkins](https://github.com/Cyberglamdring/4employers/tree/master/Jenkins): [DSL](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/DSL/jobs.groovy), [Pipeline](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/Pipeline/Jenkinsfile) with custom [libs](https://github.com/Cyberglamdring/4employers/blob/master/Jenkins/Pipeline/var/pushStage.groovy)
