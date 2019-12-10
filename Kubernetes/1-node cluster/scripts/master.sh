@@ -126,6 +126,6 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/mast
 kubectl patch -n ingress-nginx svc ingress-nginx --patch '{"spec": {"type": "LoadBalancer"}}'
 # kubectl cluster-info
 
-# disbled master node protection
+# Disbled master node protection
 kubectl taint nodes --all node-role.kubernetes.io/master-
 
