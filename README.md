@@ -91,13 +91,11 @@ About Me
 =
 Experience
 -
-I started on the system administrator side, then went over to Systems Engineer. Prior to EPAM I worked with virtualization tools, Windows/Linux servers, also supported people in the organization. 
-I created several Linux servers on VMware: Zabbix on Ubuntu, a simple XMPP organization chat server with Open Fire on Debian and a firewall/router/load balancer server with PfSense on FreeBSD.
-I helped peoples in the organization with technical problems. Also, I analyzed and solve problems with servers/networking/database and windows applications.
-As a result, I was good at virtualization tools, troubleshooting, logging and solving technical problems.
+Prior to EPAM I worked with virtualization tools, Windows/Linux servers, also supported people in the organization. I created several Linux servers on VMware: Zabbix on Ubuntu, a simple XMPP organization chat server with Open Fire on Debian and a firewall/router/load balancer server with PfSense on FreeBSD. I helped peoples in the organization with technical problems. Also, I analyzed and solve problems with servers/networking/database and windows applications. As a result, I was good at virtualization tools, troubleshooting, logging and solving technical problems.
 
+From May 2019 to September 2019, I first joined to EPAM, I passed to the DevOps lab and graduated it of 3 months. I learn a lot of Cloud, CI/CD tools and concept, git, containerization, configuration management tools, virtualization, monitoring tools, programming languages, build tools and software development methodologies.
 
-When I first joined EPAM, I passed to the DevOps lab and graduated it of 3 months. I learn a lot of Cloud, CI/CD tools and concept, git, containerization, configuration management tools, virtualization, monitoring tools, programming languages, build tools and software development methodologies.
+From December 2019 to March 2020 I was working on the LIBG-OBO project, on Monitoring team. I was editing, creating and implementation Terraform modules, ansible playbooks and roles, jenkins pipelines. I tested environments in Jenkins CI
 
 Achievements
 -
